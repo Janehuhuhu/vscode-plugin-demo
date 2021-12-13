@@ -10,7 +10,10 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:vscode-plugin-demo.helloWorld"
+		"onCommand:vscode-plugin-demo.helloWorld",
+		"onCommand:catCodeing.start",
+		"onCommand:catCodeing.update",
+		"onCommand:catCodeing.dispose"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
@@ -18,6 +21,18 @@
 			{
 				"command": "vscode-plugin-demo.helloWorld",
 				"title": "Hello World"
+			},
+			{
+				"command": "catCodeing.start",
+				"title": "cat Codeing"
+			},
+			{
+				"command": "catCodeing.update",
+				"title": "catCodeing update"
+			},
+			{
+				"command": "catCodeing.dispose",
+				"title": "catCodeing dispose"
 			}
 		]
 	},
