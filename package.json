@@ -15,7 +15,8 @@
 		"onCommand:catCodeing.update",
 		"onCommand:catCodeing.dispose",
 		"onCommand:catCodeing.reveal",
-		"onCommand:catCodeing.change"
+		"onCommand:catCodeing.change",
+		"onCommand:catCodeing.postmessage"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
@@ -43,6 +44,10 @@
 			{
 				"command": "catCodeing.change",
 				"title": "catCodeing change"
+			},
+			{
+				"command": "catCodeing.postmessage",
+				"title": "catCodeing postmessage"
 			}
 		]
 	},
