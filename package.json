@@ -13,7 +13,8 @@
 		"onCommand:vscode-plugin-demo.helloWorld",
 		"onCommand:catCodeing.start",
 		"onCommand:catCodeing.update",
-		"onCommand:catCodeing.dispose"
+		"onCommand:catCodeing.dispose",
+		"onCommand:catCodeing.reveal"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
@@ -33,6 +34,10 @@
 			{
 				"command": "catCodeing.dispose",
 				"title": "catCodeing dispose"
+			},
+			{
+				"command": "catCodeing.reveal",
+				"title": "catCodeing reveal"
 			}
 		]
 	},
