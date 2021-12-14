@@ -14,7 +14,8 @@
 		"onCommand:catCodeing.start",
 		"onCommand:catCodeing.update",
 		"onCommand:catCodeing.dispose",
-		"onCommand:catCodeing.reveal"
+		"onCommand:catCodeing.reveal",
+		"onCommand:catCodeing.change"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
@@ -38,6 +39,10 @@
 			{
 				"command": "catCodeing.reveal",
 				"title": "catCodeing reveal"
+			},
+			{
+				"command": "catCodeing.change",
+				"title": "catCodeing change"
 			}
 		]
 	},
